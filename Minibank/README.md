@@ -1,4 +1,4 @@
-# MiniBank — Practical 14 (Capstone)
+# MiniBank
 
 Final assembled MiniBank demonstrating the OOP Java practical concepts: classes and records, encapsulation, exceptions, collections, generics, annotations, concurrency, file I/O, persistence, transaction history, and tests.
 
@@ -32,30 +32,6 @@ MiniBank_RepoStyle/
     └── README.md
 ```
 
-## Compile
-
-```bash
-cd practical_14
-mkdir -p out
-javac -d out *.java
-```
-
-On Windows PowerShell, the same `javac -d out *.java` command works when JDK 17+ is on PATH.
-
-## Run
-
-```bash
-java -cp out MiniBank
-```
-
-## Build Runnable JAR
-
-```bash
-cd practical_14
-echo Main-Class: MiniBank > manifest.txt
-jar cfm minibank.jar manifest.txt -C out .
-java -jar minibank.jar
-```
 
 ## Menu Options
 
